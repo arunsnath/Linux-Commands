@@ -1,0 +1,48 @@
+Never use rm
+
+root
+
+Ai6@dm!n
+
+ls to list
+
+ls -lrt
+
+ls -la
+
+vim - to open a file
+
+esc:q!
+
+:q!
+
+/home/its/airlink/ganges-phase-four/Tway-production
+./startrelserver.sh
+__________________________________________________
+View servers___________
+ps -aef | grep java
+
+To kill servers _________
+kill -9 servernumber
+____________________________________________________
+To start server ________
+./startrelserver.sh start
+
+To view server in folder______________
+ps -aef | grep /home/its/airlink/ganges-phase-four/Tway-production
+_____________________________________________________
+
+To clear a file content:
+-c '> File'
+Eg:  -c '> ganges-eai.log'
+
+______________________
+
+To view a server status inside a folde in Genius:
+Go to bin folder and execute ./genius.sh status
+
+
+ps -aef | grep jboss server status
+
+vim ganges-eai.log
+

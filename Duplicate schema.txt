@@ -1,0 +1,10 @@
+https://www.a2hosting.com/kb/developer-corner/mysql/import-and-export-a-mysql-database
+
+
+mysqldump -u root genius_itt_db_1A_merge_dev > db.sql
+
+
+genius_itt_db_1V
+
+
+mysql -u root	genius_itt_db_1V < db.sql

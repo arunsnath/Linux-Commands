@@ -1,0 +1,22 @@
+Caching ON & OFF
+
+parameters in genius/sh
+no cache
+-----------
+-Dspring.profiles.active='production,noCache'
+
+Use cache
+------------
+-Dspring.profiles.active='production,useRedisSentinel'
+
+Linux commands for eiting
+vi<space>filename (will open the file using editor. vim is another editor)
+vi genius.sh
+default mode is view. to change press esc & press "i" eanbles edit mode
+x will delete the words.
+:enter will change to action to close.
+w will write & stay
+wq write & quit
+q only quit no save
+
+w! or wq! or q! will do the above metioned actions forcefully.
